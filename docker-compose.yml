@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  artalk:
+    container_name: artalk
+    image: artalk/artalk-go
+    ports:
+      - 8003:23366
+    volumes:
+      - ./data:/data
