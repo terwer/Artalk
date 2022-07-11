@@ -1,4 +1,5 @@
 .idea/
 data/
+artalk/ssl/
 artalk-nginx/log/
 artalk-nginx/ssl/
