@@ -3,3 +3,4 @@ data/
 artalk/ssl/
 artalk-nginx/log/
 artalk-nginx/ssl/
+.DS_Store
