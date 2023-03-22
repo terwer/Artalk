@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   artalk:
-    image: terwer/artalk:2.3
+    image: terwer/artalk:2.5.2
     container_name: artalk
     build:
       context: ./
