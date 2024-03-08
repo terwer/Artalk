@@ -1,9 +1,5 @@
-FROM artalk/artalk-go:2.5.2
-#镜像创建者的信息
-LABEL maintainer="terwer<youweics@163.com>"
+FROM artalk/artalk-go:2.8.3
 
-# 设置编码
+LABEL maintainer="terwer<youweics@163.com>"
 ENV LANG C.UTF-8
-# 设置时区
-# ENV TZ Asia/Shanghai
 ENV TZ CST-8
