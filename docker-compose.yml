@@ -8,5 +8,5 @@ services:
       - "8003:23366"
     volumes:
       - ./artalk/data:/data
-      - ./artalk/ssl/certs/cert.pem:/etc/ssl/certs/cert.pem
-      - ./artalk/ssl/certs/cert.key:/etc/ssl/certs/cert.key
+      # - ./artalk/ssl/certs/cert.pem:/etc/ssl/certs/cert.pem
+      # - ./artalk/ssl/certs/cert.key:/etc/ssl/certs/cert.key
