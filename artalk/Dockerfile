@@ -1,4 +1,4 @@
-FROM artalk/artalk-go:2.8.3
+FROM artalk/artalk-go:2.9.1
 
 LABEL maintainer="terwer<youweics@163.com>"
 ENV LANG C.UTF-8
