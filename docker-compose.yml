@@ -1,11 +1,9 @@
 version: "3.5"
 services:
   app:
-    image: terwer/artalk:2.9.1
+    # image: artalk/artalk-go:2.9.1
+    image: registry.cn-shenzhen.aliyuncs.com/terwer/dm:artalk-go-2.9.1
     container_name: artalk
-    build:
-      context: ./
-      dockerfile: ./artalk/Dockerfile
     ports:
       - "8003:23366"
     volumes:
